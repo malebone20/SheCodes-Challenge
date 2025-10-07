@@ -1,38 +1,53 @@
 body {
-  background-color: lightcyan;
-  font-family: sans-serif;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20250607/pngtree-ancient-scrolls-and-manuscripts-resting-on-a-wooden-table-illuminated-by-image_17388058.jpg");
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.082);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  max-width: 700px;
   margin: 0 auto;
   padding: 50px;
-  background-color: white;
   border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 50px lightgoldenrodyellow;
 }
 
 img {
   max-width: 100%;
+  border-radius: 15px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
   gap: 20px;
 }
 
 .main-picture {
   width: 260px;
   height: 260px;
-  border-radius: 20px;
   display: block;
   margin: 0 auto;
 }
 
 .traditional-clothing {
   width: 200px;
-  height: 200px;
+  height: 180px;
   border-radius: 15px;
+}
+
+.traditional-food {
+  height: 180px;
+}
+
+.traditional-celebration {
+  height: 180px;
 }
 
 h1,
